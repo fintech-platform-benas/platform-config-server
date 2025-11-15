@@ -41,6 +41,20 @@
 		</plugins>
 	</build>
 
-	<!-- Distribution Management inherited from parent POM (GitHub Packages) -->
+
+
+	<!-- GitHub Packages - publish to this repository's packages -->
+	<distributionManagement>
+		<repository>
+			<id>github</id>
+			<name>GitHub Packages</name>
+			<url>https://maven.pkg.github.com/fintech-platform-benas/platform-config-server</url>
+		</repository>
+		<snapshotRepository>
+			<id>github</id>
+			<name>GitHub Packages</name>
+			<url>https://maven.pkg.github.com/fintech-platform-benas/platform-config-server</url>
+		</snapshotRepository>
+	</distributionManagement>
 
 </project>
