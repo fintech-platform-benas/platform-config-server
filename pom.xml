@@ -10,9 +10,9 @@
 	</parent>
 
 	<groupId>com.paymentchain</groupId>
-	<artifactId>configserver</artifactId>
+	<artifactId>config-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>configserver</name>
+	<name>config-server</name>
 	<description>Config Server - Payment Chain Infrastructure</description>
 	<packaging>jar</packaging>
 
