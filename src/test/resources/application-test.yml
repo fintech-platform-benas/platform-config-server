@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: config-server-test
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/fintech-platform-benas/payment-config-repo
+          default-label: main
+          clone-on-start: false  # Don't clone on test startup
+
+server:
+  port: 0  # Random port for tests
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health
